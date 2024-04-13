@@ -22,3 +22,17 @@ df -h
 free -g
 
 nproc
+
+## If & IfElse
+a=4
+b=10
+
+if[ $a > $b]
+then
+	echo "A is greater than B"
+else
+	echo "B is greater than A"
+fi
+
+## For Loop
+for i in {1.100}; do echo $1; done
