@@ -1,0 +1,10 @@
+[dbserver]
+10.21.32.97
+10.21.32.98
+
+
+[webserver]
+192.168.86.176
+192.168.86.177
+
+//ansible -i inventory webserver -m "shell" -a "touch devopsclass"

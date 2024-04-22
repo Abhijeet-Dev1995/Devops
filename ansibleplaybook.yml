@@ -1,0 +1,17 @@
+---
+- name: Install and Start nginx		//Name of Playbook
+  hosts: all				//List of Host where this playbook has to run
+  become: true				//execute ansible playbook as root user
+  become_user: userName			//for executing using specific user
+
+  tasks:
+   - name: Install nginx
+     apt:
+       name: nginx
+       state: present
+   - name: Start nginx
+     service:
+       name: nginx
+       state: started
+
+- name: Second PlayBook Name
