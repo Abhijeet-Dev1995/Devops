@@ -15,3 +15,12 @@
        state: started
 
 - name: Second PlayBook Name
+
+
+#########################################################################################################
+
+Use Case
+
+-> Create 3 EC2 Instances on AWS	(Using Terraform)	=> Terraform Mostly used for Infrastructure management
+-> Configure 1 of those EC2 instances as master	(Using Ansible)
+-> Configure 2 other EC2 instances as worker	(Using Ansible)
